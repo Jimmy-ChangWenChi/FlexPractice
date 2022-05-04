@@ -1,0 +1,7 @@
+//水平置中
+margin: 0 auto;
+
+//不要計算box的border跟padding 可以利用boder-box, 這樣長寬就是設定的大小
+box-sizing:border-box
+
+//Flex
