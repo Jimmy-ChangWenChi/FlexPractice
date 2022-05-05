@@ -44,50 +44,57 @@ table {
 }
 /* 初始化*/
 
-.wrap{
+.header{
 	display: flex;
-    width: 1000px;
+	justify-content: space-between;
+	background:#e7eeea;
+	padding: 20px;
 }
-.menu{
-    width: 400px;
-    background: #e7eeea;
-    border: 1px solid blue;
-    padding-top: 30px;
-    text-align: center;
+.header ul{
+	display: flex;
+	align-items: center;
 }
-.menu img{
-    padding: 5px;
+.header a{
+	text-decoration: none;
+	margin-left: 20px;
 }
 
-.menu a{
-    padding: 20px;
-    display: block;
-    text-decoration: none;
+.header a:hover{
+	text-decoration: underline;
 }
-.menu a:hover{
-    color:white;
-    background: #37523d;
-}
+
 .content{
-    border: 1px solid red;
-    padding: 30px;
+	/*border:1px solid blue;*/
+	width: 600px;
+	margin: 50px auto;
 }
+
 .content h3{
-    padding-bottom: 20px; ;
-    font-size: 20px;
-    color:#37523d;
+	margin-bottom: 20px;
+	font-size: 20px;
 }
 .content p{
-    padding-bottom: 10px;
-    font-size: 20px;
-    line-height: 1.5;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.content img{
+	margin-bottom: 20px;
 }
 
-.content-pic{
-    display: flex;
-    flex-wrap: wrap;
+.footer{
+	background-color: #37523d
+}
+.footer ul{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.footer a{
+	padding: 10px;
+	color: white;
+	text-decoration: none;
 }
 
-.content-pic img{
-    padding: 5px;
+.footer a:hover{
+	text-decoration: underline;
 }

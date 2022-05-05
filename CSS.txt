@@ -19,3 +19,8 @@ space-around:平均分配寬度和間距
 
 //border-radius
 css中设置圆角边框的属性
+
+//flex-wrap 來換行
+flex-wrap: nowrap; 預設值，不斷行
+flex-wrap: wrap; 多行
+flex-wrap: wrap-reverse; 多行，且主軸線起點與終點相反
