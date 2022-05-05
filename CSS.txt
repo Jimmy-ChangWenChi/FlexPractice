@@ -17,3 +17,5 @@ space-around:平均分配寬度和間距
 //align-item
 主要以"交錯軸線"來做排版。
 
+//border-radius
+css中设置圆角边框的属性
