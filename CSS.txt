@@ -1,11 +1,27 @@
 //水平置中
 margin: 0 auto;
 
+//文字置中
+text-align:center
+
 //不要計算box的border跟padding 可以利用boder-box, 這樣長寬就是設定的大小
 box-sizing:border-box
 
+flex 屬性 
+display
+flex-direction(主軸)
+justify-content:主軸對齊
+align-item:交錯軸對齊
+flex-wrap:換行屬性
+
+
 //justify-content
 主要以"主軸線"來排版。
+justify-content:flex-start
+justify-content:flex-end
+justify-content:center
+justify-content:space-around
+justify-content:space-between
 
 //justify-content:space-around
 space-around:平均分配寬度和間距
@@ -16,6 +32,11 @@ space-around:平均分配寬度和間距
 
 //align-item
 主要以"交錯軸線"來做排版。
+align-item:flex-start
+align-item:flex-end
+align-item:center
+align-item:stretch(滿版)
+align-item:baseline
 
 //border-radius
 css中设置圆角边框的属性
