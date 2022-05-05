@@ -4,4 +4,16 @@ margin: 0 auto;
 //不要計算box的border跟padding 可以利用boder-box, 這樣長寬就是設定的大小
 box-sizing:border-box
 
-//Flex
+//justify-content
+主要以"主軸線"來排版。
+
+//justify-content:space-around
+space-around:平均分配寬度和間距
+
+//justify-content:space-between
+平均分配寬度，第一項和最後一項貼齊邊緣
+
+
+//align-item
+主要以"交錯軸線"來做排版。
+

@@ -43,20 +43,46 @@ table {
 }
 
 
-.content{
-    border: px solid black;
-    margin:0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding:20px;
-    margin: 10px;
+
+.wrap{
+	width: 1300px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background: green;
 }
 
-.item{
-    width: 375px;
+.card{
+	display:flex;
+	justify-content:space-around;
 }
 
-.content-item1 h1{
-    font-size: 63px;
-    padding: 50px
+.card li{
+	width: 400px;
+}
+
+.card-title{
+	background:#37523d;
+}
+
+.card-title h1{
+	font-size: 80px;
+	text-align: center;
+	padding: 60px;
+}
+
+.card-content{
+	background:white;
+}
+
+.card-content h3{
+	font-size: 30px;
+	padding: 20px;
+	color: green;
+	text-align: center;
+}
+
+.card-content p{
+	padding: 30px;
+	font-size: 25px;
+	line-height: 1.2;
 }
