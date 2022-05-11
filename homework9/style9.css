@@ -43,3 +43,39 @@ table {
 	border-spacing: 0;
 }
 /* 初始化*/
+
+.wrap{
+	width: 1000px;
+}
+.header{
+	background: #EAF0ED;
+}
+.header h2{
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+.hcontent{
+	display:flex;
+	justify-content: space-between;
+	background: white;
+	padding: 10px;
+}
+
+.footer{
+	background: #EAF0ED;
+}
+.footer h2{
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+.fcontent{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	background: white;
+}
+.fcontent h3{
+	padding-bottom: 10px;
+}

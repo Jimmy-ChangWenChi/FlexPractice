@@ -56,8 +56,27 @@ table {
 }
 .banner img{
 	padding-bottom: 20px;
+	height: 300px;
 }
 .banner h2{
 	font-size: 28px;
 	color: #37523d;
+}
+
+.footer{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer ul{
+	display: flex;
+}
+
+.footer a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+.footer a:hover{
+	color:blue;
 }

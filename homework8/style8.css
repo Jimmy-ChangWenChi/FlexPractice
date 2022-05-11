@@ -43,3 +43,21 @@ table {
 	border-spacing: 0;
 }
 /* 初始化*/
+
+
+.wrap{
+	width: 1000px;
+	display: flex;
+	margin: 0 auto;
+	background: #b3d4d1;
+	border: 1px solid black;
+}
+.wrap p{
+	font-size: 28px;
+	line-height: 1.4;
+	text-align: center;
+	padding: 166px 60px 166px 76px;
+	color:white
+}
+
+
