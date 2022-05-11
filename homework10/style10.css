@@ -43,3 +43,30 @@ table {
 	border-spacing: 0;
 }
 /* 初始化*/
+
+
+.wrap{
+	display: flex;
+}
+
+.left{
+	width: 300px;
+	border: 1px solid red;
+	text-align: center;
+	
+}
+.left h3{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.left li{
+	background: white;
+	font-size: 20px;
+	padding: 20px;
+	border: 2px solid #e7eeea;
+}
+.left a{
+	text-decoration: none;
+	
+}
