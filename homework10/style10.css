@@ -47,17 +47,19 @@ table {
 
 .wrap{
 	display: flex;
+	padding: 20px;
+	width: 1000px;
 }
 
 .left{
 	width: 300px;
-	border: 1px solid red;
 	text-align: center;
-	
 }
 .left h3{
 	font-size: 20px;
-	padding: 10px;
+	padding: 20px;
+	background: #37523d;
+	color:white;
 }
 
 .left li{
@@ -65,8 +67,37 @@ table {
 	font-size: 20px;
 	padding: 20px;
 	border: 2px solid #e7eeea;
+	
 }
 .left a{
 	text-decoration: none;
-	
+	display: flex;
+	justify-content: center;
+	color: #37523d
+}
+.left a:hover{
+	background:#e7eeea;
+}
+.right{
+	display:flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.rcontent{
+	padding: 20px;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	color: #37523d;
+}
+.right a{
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	background:#e7eeea;
+	padding: 10px;
+	text-decoration: none;
+	color: #37523d
 }
